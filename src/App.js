@@ -6,7 +6,7 @@ import { connect } from 'react-redux'
 function App(props) {
   return (
     <div className="App">
-      <p>Beni...!</p>
+      <p>Beni...!!</p>
 
       <div>Age: <span>{props.age}</span></div>
       <button style={{elevation: 8,
