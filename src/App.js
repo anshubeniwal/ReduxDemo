@@ -28,8 +28,8 @@ const mapStateToProps = (state) => {
 }
 const mapDispachToProps = (dispach) => {
   return {
-    onAgeUp: () => dispach({ type: "Age_Up" }),
-    onAgeDown: () => dispach({ type: "Age_Down" })
+    onAgeUp: () => dispach({ type: "Age_Up" , val:5}),
+    onAgeDown: () => dispach({ type: "Age_Down", val:2})
   }
 }
 export default connect(mapStateToProps, mapDispachToProps)(App);
